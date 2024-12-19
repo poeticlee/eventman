@@ -1,5 +1,5 @@
 import React from 'react';
-import WelcomeForm    from './welcomeform';
+import WelcomeForm  from './welcomeform';
 import Design from './design';
 
 function WelcomeBack() {

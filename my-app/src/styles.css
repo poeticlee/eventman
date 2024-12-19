@@ -1,0 +1,48 @@
+.carousell-container {
+    width: 100%;
+    height: 400px; /* Adjust based on the content of your carousel */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .carousel-wrapper {
+    display: flex;
+    gap: 80px; /* 50px gap between images */
+    animation: moveImages 12s infinite linear; /* Infinite loop of images */
+
+    /* Ensure the carousel doesn't overflow */
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  
+  
+  }
+  
+  .carousel-wrapper img {
+    width: 500px; /* Image size */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; /* Ensure the image maintains aspect ratio */
+  }
+  
+  /* Animation for smooth movement and wrapping */
+  @keyframes moveImages {
+    0% {
+      transform: translateX(0); /* Start at the initial position */
+    }
+    25% {
+      transform: translateX(-250px); /* Move images to the left */
+    }
+    50% {
+      transform: translateX(-500px); /* Continue moving left */
+    }
+    75% {
+      transform: translateX(-750px); /* Continue moving left */
+    }
+    100% {
+      transform: translateX(-1000px); /* Move all the way to the left */
+    }
+  }
+  

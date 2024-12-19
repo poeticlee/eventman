@@ -1,13 +1,18 @@
 import React, { forwardRef } from "react";
 import PropTypes from "prop-types";
 
+
+
+
 const Input = forwardRef(({ label, type, name, placeholder, ...rest }, ref) => {
+
+  
   return (
     <div style={{ marginBottom: "1rem" }}>
       {label && (
         <label
           htmlFor={name}
-          style={{ display: "block", marginBottom: ".5rem", fontWeight: "bold" }}
+          style={{ display: "block", marginBottom: ".5rem", fontWeight: "bold" ,  fontFamily: "Manrope"}}
         >
           {label}
         </label>
@@ -25,7 +30,7 @@ const Input = forwardRef(({ label, type, name, placeholder, ...rest }, ref) => {
           fontSize: "16px",
           borderRadius: "5px",
           border: "1px solid #ccc",
-          fontFamily: "Manrope, sans-serif",
+          fontFamily: "Manrope",
         }}
       />
     </div>

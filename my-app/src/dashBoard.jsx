@@ -2,7 +2,8 @@ import React from 'react'
 
 function DashBoard() {
   return (
-    <div>
+    <div><h1>
+      labalabala</h1>
     </div>
   );
 }
