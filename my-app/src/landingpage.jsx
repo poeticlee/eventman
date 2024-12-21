@@ -304,7 +304,7 @@ function Landingpage() {
           </p>
           <p
             style={{
-              fontFamily: "Manrope",
+            
               fontSize: "40px",
               fontWeight: "700",
               textAlign: "center",
