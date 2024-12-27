@@ -27,8 +27,7 @@ const SignUp = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post(
-        "https://jobbertrack.onrender.com/auth/signup",
+      const response = await axios.post('https://cors-anywhere.herokuapp.com/https://jobbertrack.onrender.com/auth/signup',
         {
           firstName: data.firstName,
           lastName: data.lastName,
