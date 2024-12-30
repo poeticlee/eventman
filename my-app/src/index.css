@@ -23,6 +23,10 @@
 html {
   font-family:'Manrope'
 }
+
+.main{
+  @apply w-[90%] lg:w-[80%] mx-auto
+}
 a {
   font-weight: 500;
   color: #646cff;
