@@ -24,6 +24,7 @@ const WelcomeForm = () => {
         {
           email: data.email,
           password: data.password,
+          
         }
       );
 
